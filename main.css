@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Serenissima CSS starts */
+
+/* main color: #256198, rgba(37, 97, 152, 1) */
+
+body {
+  color: rgba(37, 97, 152, 1);
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Libre Franklin', sans-serif; */
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.pillars-of-hercules {
+  padding: 0px 72px;
+}
+
+h1 {
+  font-size: 6em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+.banner-main {
+  background: rgba(37, 97, 152, 1);
+  color: #fff;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+
+.banner-main .centered-text {
+  text-align: center;
+}
+
+.banner-main .hero-call {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-main .hero-call h2 {
+  line-height: 1.3em;
+  padding-bottom: 64px;
+  padding-top: 64px;
+  width: 60%;
+}
+
+.banner-main h4 {
+  font-weight: 400;
+}
+
+.banner-call-to-action {
+  padding-bottom: 72px;
+  padding-top: 72px;
+}
+
+.banner-call-to-action .example {
+  display: flex;
+  width: 80%;
+}
+
+.banner-call-to-action .example .image-wrapper {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+
+.banner-call-to-action .example .text-wrapper {
+  display: flex;
+  flex-basis: 0;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding-left: 36px;
+}
+
+.banner-call-to-action .example .image-wrapper img {
+  width: 100%;
+}
+
+.banner-call-to-action .example.first-example {
+
+}
+
+.banner-call-to-action .example.second-example {
+  margin-left: 20%;
+}
+
+.banner-call-to-action .button-wrapper {
+  padding-bottom: 24px; /* We have 72px from the row container */
+  padding-top: 96px;
+  text-align: center;
+}
+
+.banner-call-to-action button {
+  background: rgba(37, 97, 152, 1);
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 12px 24px;
+}
+
+.banner-step-by-step {
+  background: rgba(37, 97, 152, 1);
+  color: #fff;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.banner-step-by-step .step:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.footer .right {
+  display: flex;
+}
+
+.footer a.link {
+  color: rgba(37, 97, 152, 1);
+  text-decoration: none;
+}
+
+.footer a.link:not(:last-child) {
+  margin-right: 24px;
+}

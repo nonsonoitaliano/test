@@ -1,0 +1,8 @@
+.vscode
+venv
+*.py
+*.ui
+src
+LICENSE
+README.md
+requirements.txt
